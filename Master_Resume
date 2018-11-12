@@ -1,0 +1,142 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol} % allows multiple columns 
+\usepackage{enumitem} % Enables some items for lists 
+\usepackage{times}
+\usepackage[margin=1in]{geometry}
+\raggedright
+\newcommand\textbox[1]{%
+  \parbox{.333\textwidth}{#1}%
+}
+
+\begin{document}
+% HEADER  ########################################################
+\centerline{\huge\bf Justin K. Liao} % Your name at the top
+\centerline{https://www.linkedin.com/in/liaojustin/}
+% OBJECTIVE  ########################################################
+%\section*{OBJECTIVE}
+{\large\bf OBJECTIVE}\\\
+Biomedical Engineer with Math minor and two years of research experience in medical imaging data analysis. Highly interested in research, device design, and software development. 
+
+\ \\
+
+% SKILLS  ########################################################
+{\large\bf SKILLS }
+\setlength\multicolsep{0pt}
+\begin{multicols}{2}
+\begin{itemize}[topsep=0em]
+\setlength\itemsep{-.05em}
+\item Experienced with Mathworks Matlab \& Simulink
+\item Familiar with Python
+\item Familiar with LaTeX 
+\item Familiar with Minitab 17
+\item Familiar with Labview
+\item Familiar with PICAXE BASIC Programming
+\item Familiar with VBA Scripting
+\item Experience using Windows, OSX, Linux 
+\item Biometric Data Collection (EEG, ECG, etc.)
+\item Biomechanics Modeling
+%\item Familiar with Solidworks
+%\item Wet lab cell culture (CHO, P388, E.coli)
+
+\end{itemize}
+\end{multicols}
+
+\ \\
+% EDUCATION  ########################################################
+%\section*{EDUCATION}
+{\large\bf EDUCATION}\\\
+\qquad{Rochester Institute of Technology} \hfill Rochester, NY 
+
+\qquad{ BS Biomedical Engineering -- Minor Mathematics (May, 2018)} \hfill GPA:3.59/4.00 \\\
+% WORK EXPERIENCE ########################################################
+%\section*{WORK EXPERIENCE}
+\\{\large\bf WORK EXPERIENCE}\\\
+% PIA 
+{\sl Lead Image Analyst} \hfill August 2018 - Present \\
+Precision Image Analysis \hfill Kirkland WA 
+\begin{itemize}[topsep=0em]
+\setlength\itemsep{-.25em}
+\item Performed post processing of cardiac magnetic resonance (CMR) and computed tomography angiography (CTA) images
+\item Developing VBA macros to increase report generation efficiency
+\item Trained analysts in CMR post processing
+\end{itemize}
+
+\ \\
+ %RIT 
+{\sl Teaching Assistant } \hfill January 2018 - May 2018 \\
+Rochester Institute of Technology Department of Biomedical Engineering \hfill Rochester, NY 
+\begin{itemize}[topsep=0em]
+\setlength\itemsep{-.25em}
+\item Delivered several lectures on fMRI post processing using SPM12 and Matlab
+\end{itemize} 
+
+\ \\
+%INI 
+{\sl Image Processing Software Development Engineer} \hfill May 2016 - Present\\
+Integrated Neuro-Imaging Lab \hfill Rochester, NY 
+\begin{itemize}[topsep=0em]
+\setlength\itemsep{-.25em}
+\item Developing method for acquisition of the motion function during fMRI. 
+\item Developed and published method for improved motion correction in perfusion MRI
+\item Automated image preprocessing pipeline for arterial spin labeling (ASL) MRI
+\item Developed code to measured the correlation between blood dynamics and the spatial covariance of fMRI signal for in clinical diagnosis (publication in review)
+\item Prototyped a 3D printed, patient specific, hydrogel brain phantoms for MRI calibration and quality control
+%\item Collaborating in the development of an MRI compatible near infrared spectroscopy (NIRS) imaging system.
+\end{itemize}
+
+\ \\
+%GA Babbitt Lab 
+{\sl Undergraduate Researcher} \hfill May 2016 – December 2016\\
+G. A. Babbitt Lab  \hfill Rochester, NY
+\begin{itemize}[topsep=0em]
+\setlength\itemsep{-.25em}
+\item Utilized Perl and UCSF Chimera to generate a visual representation of simulated dynamics of proteins and DNA. 
+\item Wrote output visualization section of user guide for DROIDS software documentation 
+\end{itemize}
+
+\ \\
+%LRC
+{\sl Undergraduate Research Assistant} \hfill October 2015 – January 2016\\
+Lighting Research Center at Rensselaer Polytechnic Institute \hfill Troy, NY
+\begin{itemize}[topsep=0em]
+\setlength\itemsep{-.25em}
+\item Coded analysis pipeline of illuminance and motion data for quantifying circadian disruption in Matlab.
+\item Collected data and produced technical report on illuminance and circadian stimulus data of Phillips hue lights for LRC use. 
+\end{itemize}
+
+\ \\
+
+% PROJECTS SECTION  ########################################################
+{\large\bf PROJECTS }\\
+
+{\sl fMRI Motion Correction Project}
+
+\hangindent=2.5em {\qquad Currently working on a project utilizing Matlab, and SPM12 to validate the results of Liao et al.( Effect of Brain Extraction of Low Resolution Arterial Spin Labeling (ASL) fMRI Images on Realignment and Coregistration, Justin Liao, Jan Petr, Roland M Lazar, Randolph S Marshall, Iris Asllani, IEEE EMBS 2017)}\\
+
+{\sl Multidisciplinary Senior Design: Interactive Rock Climbing Wall }
+
+\hangindent=2.5em {\qquad Our goal was to design an interactive rock climbing wall for the use of adolescents on the autism spectrum. The plan was to design a network of wireless climbing holds that communicate with the climber and the instructor. I was responsible for working with mechanical engineers and electrical engineers on all aspects of the project, managing the team documentation website, as well as climbing hold design and manufacturing.}\\
+
+
+{\sl 1D Thermal Imaging Camera Project}
+
+\hangindent=2.5em{ \qquad Developing a proof of concept 1 dimensional 360 degree infrared thermal camera.	Utilizing a PICAXE – 08M2+ microprocessor programmed in BASIC to read data temperature data  And drive servo motor.} 
+
+\ \\ 
+% PUBLICATIONS SECTION  ########################################################
+{\large\bf PUBLICATIONS \& CONFERENCE PRESENTATIONS }\\
+\begin{enumerate}[topsep=0em]
+\setlength\itemsep{-.05em}
+    \item Comparative Protein Dynamics with Droids 1.0 - A Gui-Based Pipeline for Functional Evolutionary Protein Analysis and Visualization, Babbitt, Gregory A. et al., Biophysical Journal, Volume 114, Issue 3, 342a (https://doi.org/10.1016/j.bpj.2017.11.1911)
+
+    \item Patient-Specific 3D-Printed, Hydrogel Anatomical Brain Phantom, Tony Yosick, Justin Liao, Iris Asllani, Rochester Institute of Technology Undergraduate Research Seminar 2017
+
+    \item Effect of Brain Extraction of Low Resolution Arterial Spin Labeling (ASL) fMRI Images on Realignment and Coregistration, Justin Liao, Jan Petr, Roland M Lazar, Randolph S Marshall, Iris Asllani, IEEE EMBS 2017
+
+    \item Spatial Covariance of Arterial Spin Labeling signal has higher sensitivity than CBF as a marker of carotid occlusion., Z. Mulhollan1, H.J. Mutsaerts, J. Petr1, J. Liao, R. M. Lazar, R. S. Marshall, I Asllani, Neuroimage: Clinical(In review)
+
+    \item Arterial Spin Labeling fMRI at 3T: to PVEc or not to PVEc?, Iris Asllani, Jan Petr, Justin Liao, Dylan Bruening, Henk-Jan M, and Matthias J P van Osch, Magnetic Resonance in Medicine( In submission)
+\end{enumerate} 
+
+\end{document}
