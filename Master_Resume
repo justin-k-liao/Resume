@@ -8,14 +8,15 @@
 \newcommand\textbox[1]{%
   \parbox{.333\textwidth}{#1}%
 }
+\pagenumbering{gobble}
 
 \begin{document}
 % HEADER  ########################################################
 \centerline{\huge\bf Justin K. Liao} % Your name at the top
-\centerline{https://www.linkedin.com/in/liaojustin/}
 % OBJECTIVE  ########################################################
 %\section*{OBJECTIVE}
-{\large\bf OBJECTIVE}\\\
+%\\{\large\bf OBJECTIVE}\\\
+\ \\
 Biomedical Engineer with Math minor and two years of research experience in medical imaging data analysis. Highly interested in research, device design, and software development. 
 
 \ \\
@@ -51,10 +52,10 @@ Biomedical Engineer with Math minor and two years of research experience in medi
 \qquad{ BS Biomedical Engineering -- Minor Mathematics (May, 2018)} \hfill GPA:3.59/4.00 \\\
 % WORK EXPERIENCE ########################################################
 %\section*{WORK EXPERIENCE}
-\\{\large\bf WORK EXPERIENCE}\\\
+\\{\large\bf WORK EXPERIENCE}\\
 % PIA 
-{\sl Lead Image Analyst} \hfill August 2018 - Present \\
-Precision Image Analysis \hfill Kirkland WA 
+{\bf Precision Image Analysis}\hfill Kirkland. WA  \\
+{\sl  Lead Image Analyst} \hfill August 2018 - Present
 \begin{itemize}[topsep=0em]
 \setlength\itemsep{-.25em}
 \item Performed post processing of cardiac magnetic resonance (CMR) and computed tomography angiography (CTA) images
@@ -64,17 +65,17 @@ Precision Image Analysis \hfill Kirkland WA
 
 \ \\
  %RIT 
-{\sl Teaching Assistant } \hfill January 2018 - May 2018 \\
-Rochester Institute of Technology Department of Biomedical Engineering \hfill Rochester, NY 
+{\bf Rochester Institute of Technology Department of Biomedical Engineering} \hfill Rochester, NY  \\
+{\sl Teaching Assistant } \hfill January 2018 - May 2018 
 \begin{itemize}[topsep=0em]
 \setlength\itemsep{-.25em}
-\item Delivered several lectures on fMRI post processing using SPM12 and Matlab
+\item Delivered several lectures on fMRI post processing in Matlab
 \end{itemize} 
 
 \ \\
 %INI 
-{\sl Image Processing Software Development Engineer} \hfill May 2016 - Present\\
-Integrated Neuro-Imaging Lab \hfill Rochester, NY 
+{\bf Integrated Neuro-Imaging Lab} \hfill Rochester, NY  \\
+{\sl Image Processing Software Development Engineer} \hfill May 2016 - Present
 \begin{itemize}[topsep=0em]
 \setlength\itemsep{-.25em}
 \item Developing method for acquisition of the motion function during fMRI. 
@@ -87,8 +88,8 @@ Integrated Neuro-Imaging Lab \hfill Rochester, NY
 
 \ \\
 %GA Babbitt Lab 
-{\sl Undergraduate Researcher} \hfill May 2016 – December 2016\\
-G. A. Babbitt Lab  \hfill Rochester, NY
+{\bf G. A. Babbitt Lab }  \hfill Rochester, NY\\
+{\sl Undergraduate Researcher} \hfill May 2016 - December 2016
 \begin{itemize}[topsep=0em]
 \setlength\itemsep{-.25em}
 \item Utilized Perl and UCSF Chimera to generate a visual representation of simulated dynamics of proteins and DNA. 
@@ -97,12 +98,38 @@ G. A. Babbitt Lab  \hfill Rochester, NY
 
 \ \\
 %LRC
-{\sl Undergraduate Research Assistant} \hfill October 2015 – January 2016\\
-Lighting Research Center at Rensselaer Polytechnic Institute \hfill Troy, NY
+{\bf Lighting Research Center at Rensselaer Polytechnic Institute}  \hfill Troy, NY \\
+{\sl Undergraduate Research Assistant} \hfill October 2015 - January 2016
 \begin{itemize}[topsep=0em]
 \setlength\itemsep{-.25em}
 \item Coded analysis pipeline of illuminance and motion data for quantifying circadian disruption in Matlab.
-\item Collected data and produced technical report on illuminance and circadian stimulus data of Phillips hue lights for LRC use. 
+\item Collected data with a spectroradiometer and Labview to produce a technical report on illuminance and circadian stimulus data of Phillips hue lights to provide to the manufacturer. 
+\end{itemize}
+
+\ \\
+
+\ \\
+
+% Lydall, Inc
+{\bf Lydall, Inc. } \hfill Manchester, CT \\
+{\sl IT Intern} \hfill June 2013 - January 2015
+\begin{itemize} [topsep = 0em]
+\setlength\itemsep{-.25em}
+\item Provided desktop support for users at the Corporate Headquarters
+\item Worked in Windows 2008 Active Directory Domain and was responsible for Creating and Modifying users and user access to network resources
+\item Installed and deployed Windows based systems including Client and Application installation and configuration for an Enterprise environment. 
+\end{itemize}
+
+\ \\
+
+% Hartford Hospital 
+{\bf Hartford Hospital} \hfill Hartford, CT 
+{\sl IT Intern} \hfill June 2012 - August 2012
+\begin{itemize} [topsep = 0em]
+\setlength\itemsep{-.25em}
+\item Worked in a team environment deploy and configure computer systems for users 
+\item Imaged computers with Miray Symobi and installed necessary software and printers 
+\item Provided desktop support to employees needing computer assistance
 \end{itemize}
 
 \ \\
@@ -112,16 +139,16 @@ Lighting Research Center at Rensselaer Polytechnic Institute \hfill Troy, NY
 
 {\sl fMRI Motion Correction Project}
 
-\hangindent=2.5em {\qquad Currently working on a project utilizing Matlab, and SPM12 to validate the results of Liao et al.( Effect of Brain Extraction of Low Resolution Arterial Spin Labeling (ASL) fMRI Images on Realignment and Coregistration, Justin Liao, Jan Petr, Roland M Lazar, Randolph S Marshall, Iris Asllani, IEEE EMBS 2017)}\\
+\hangindent=2.5em {\qquad Currently working on a project utilizing Matlab, and SPM12 to validate the results of Liao et al[3].}\\
 
 {\sl Multidisciplinary Senior Design: Interactive Rock Climbing Wall }
 
-\hangindent=2.5em {\qquad Our goal was to design an interactive rock climbing wall for the use of adolescents on the autism spectrum. The plan was to design a network of wireless climbing holds that communicate with the climber and the instructor. I was responsible for working with mechanical engineers and electrical engineers on all aspects of the project, managing the team documentation website, as well as climbing hold design and manufacturing.}\\
+\hangindent=2.5em {\qquad Our goal was to design an interactive rock climbing wall for the use of adolescents on the autism spectrum. The plan was to design a network of wireless climbing holds that communicate with the climber and the instructor. I was responsible for working with mechanical engineers and electrical engineers on all aspects of the project, managing the team documentation website, as well as climbing hold design and manufacturing. The end result was a prototype climbing hold that could wirelessly communicate with an app and sense when a climber was at the hold.}\\
 
 
 {\sl 1D Thermal Imaging Camera Project}
 
-\hangindent=2.5em{ \qquad Developing a proof of concept 1 dimensional 360 degree infrared thermal camera.	Utilizing a PICAXE – 08M2+ microprocessor programmed in BASIC to read data temperature data  And drive servo motor.} 
+\hangindent=2.5em{ \qquad Developing a proof of concept 1 dimensional 360 degree infrared thermal camera.	Utilizing a PICAXE – 08M2+ microprocessor programmed in BASIC to read data temperature data and drive servo motor.} 
 
 \ \\ 
 % PUBLICATIONS SECTION  ########################################################
